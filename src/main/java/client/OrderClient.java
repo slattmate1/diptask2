@@ -28,8 +28,4 @@ public class OrderClient extends RestClient {
         return defaultRestSpecification()
                 .get(ORDER_API);
     }
-    public Response getDataIngredients() {
-        return defaultRestSpecification()
-                .get(GET_INGREDIENTS);
-    }
 }
